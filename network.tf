@@ -1,7 +1,3 @@
-provider "azurerm" {
-  features {}
-}
-
 resource "azurerm_resource_group" "nikolay" {
   name     = "my-resources"
   location = "Central US"
